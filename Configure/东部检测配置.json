@@ -1,0 +1,240 @@
+{
+  "name": "东部检测配置",
+  "yoloModelPath": "./Model/yolov8n.pt",
+  "videoSource": "./Resource/东部视频.mp4",
+  "vehicles": {
+    "car": {
+      "length": 4.6,
+      "width": 1.75
+    },
+    "motorcycle": {
+      "length": 2.0,
+      "width": 0.75
+    },
+    "truck": {
+      "length": 7.5,
+      "width": 2.45
+    },
+    "bus": {
+      "length": 12.0,
+      "width": 2.5
+    }
+  },
+  "pointsPerspective": [
+    [
+      368.0,
+      235.0
+    ],
+    [
+      499.0,
+      229.0
+    ],
+    [
+      650.0,
+      220.0
+    ],
+    [
+      754.0,
+      350.0
+    ],
+    [
+      539.0,
+      335.0
+    ],
+    [
+      290.0,
+      362.0
+    ]
+  ],
+  "pointsParallel": [
+    [
+      95.0,
+      73.0
+    ],
+    [
+      99.0,
+      71.0
+    ],
+    [
+      103.0,
+      68.0
+    ],
+    [
+      86.0,
+      43.0
+    ],
+    [
+      83.0,
+      48.0
+    ],
+    [
+      77.0,
+      50.0
+    ]
+  ],
+  "timeOccupancyWindows": 5,
+  "spaceOccupancyWindows": 5,
+  "flowWindows": 60,
+  "queueLengthWindows": 1,
+  "laneList": [
+    {
+      "sectionName": "车道7",
+      "linePoints": [
+        [
+          77.0,
+          50.0
+        ],
+        [
+          80.0,
+          48.0
+        ]
+      ],
+      "edgePoints": [
+        [
+          95.0,
+          73.0
+        ],
+        [
+          98.0,
+          72.0
+        ],
+        [
+          80.0,
+          48.0
+        ],
+        [
+          62.0,
+          37.0
+        ]
+      ],
+      "vehicles": {
+        "car": {
+          "length": 4.6,
+          "width": 1.75
+        },
+        "motorcycle": {
+          "length": 2.0,
+          "width": 0.75
+        },
+        "truck": {
+          "length": 7.5,
+          "width": 2.45
+        },
+        "bus": {
+          "length": 12.0,
+          "width": 2.5
+        }
+      },
+      "timeOccupancyWindows": 5,
+      "spaceOccupancyWindows": 5,
+      "flowWindows": 60,
+      "queueLengthWindows": 1
+    },
+    {
+      "sectionName": "车道8",
+      "linePoints": [
+        [
+          80.0,
+          48.0
+        ],
+        [
+          83.0,
+          46.0
+        ]
+      ],
+      "edgePoints": [
+        [
+          98.0,
+          72.0
+        ],
+        [
+          101.0,
+          70.0
+        ],
+        [
+          83.0,
+          46.0
+        ],
+        [
+          80.0,
+          48.0
+        ]
+      ],
+      "vehicles": {
+        "car": {
+          "length": 4.6,
+          "width": 1.75
+        },
+        "motorcycle": {
+          "length": 2.0,
+          "width": 0.75
+        },
+        "truck": {
+          "length": 7.5,
+          "width": 2.45
+        },
+        "bus": {
+          "length": 12.0,
+          "width": 2.5
+        }
+      },
+      "timeOccupancyWindows": 5,
+      "spaceOccupancyWindows": 5,
+      "flowWindows": 60,
+      "queueLengthWindows": 1
+    },
+    {
+      "sectionName": "车道9",
+      "linePoints": [
+        [
+          83.0,
+          47.0
+        ],
+        [
+          86.0,
+          43.0
+        ]
+      ],
+      "edgePoints": [
+        [
+          101.0,
+          70.0
+        ],
+        [
+          103.0,
+          68.0
+        ],
+        [
+          86.0,
+          43.0
+        ],
+        [
+          83.0,
+          46.0
+        ]
+      ],
+      "vehicles": {
+        "car": {
+          "length": 4.6,
+          "width": 1.75
+        },
+        "motorcycle": {
+          "length": 2.0,
+          "width": 0.75
+        },
+        "truck": {
+          "length": 7.5,
+          "width": 2.45
+        },
+        "bus": {
+          "length": 12.0,
+          "width": 2.5
+        }
+      },
+      "timeOccupancyWindows": 5,
+      "spaceOccupancyWindows": 5,
+      "flowWindows": 60,
+      "queueLengthWindows": 1
+    }
+  ]
+}
