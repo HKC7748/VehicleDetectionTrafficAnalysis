@@ -5,7 +5,7 @@
   <a href="https://github.com/HKC7748/VehicleDetectionTrafficAnalysis/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/HKC7748/VehicleDetectionTrafficAnalysis?color=blue" alt="license">
   </a>
-  <img src="https://img.shields.io/badge/Python-3.10+-green?logo=python" alt="python">
+  <img src="https://img.shields.io/badge/Python-3.11+-green?logo=python" alt="python">
   <img src="https://img.shields.io/badge/UI-PySide6-blue?logo=qt" alt="ui">
   <img src="https://img.shields.io/badge/Engine-YOLOv8-orange?logo=opencv" alt="engine">
 </p>
