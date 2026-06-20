@@ -1,4 +1,16 @@
-# 车辆检测与交通流量分析系统
+# 车辆检测与交通分析系统
+
+<!-- ---------- Badges ---------- -->
+<p>
+  <a href="https://github.com/HKC7748/VehicleDetectionTrafficAnalysis/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/HKC7748/VehicleDetectionTrafficAnalysis?color=blue" alt="license">
+  </a>
+  <img src="https://img.shields.io/badge/Python-3.10+-green?logo=python" alt="python">
+  <img src="https://img.shields.io/badge/UI-PySide6-blue?logo=qt" alt="ui">
+  <img src="https://img.shields.io/badge/Engine-YOLOv8-orange?logo=opencv" alt="engine">
+</p>
+
+---
 
 ## 项目简介
 
@@ -33,7 +45,6 @@
 1. **克隆或下载本项目**  
    ```bash
    git clone https://github.com/HKC7748/VehicleDetectionTrafficAnalysis.git
-   cd vehicle-detection-traffic-analysis
    ```
 
 2. **创建虚拟环境（推荐）**  
@@ -102,6 +113,12 @@ python main.py
 - **各车道数据**：每个车道独立标签页，内含时间占有率、空间占有率、流量、排队长度、断面过车数据的柱状图与表格。
 - **一键导出**：点击“一键导出所有数据”，选择保存目录，所有统计数据将按类别导出为 CSV 文件（编码 UTF-8-SIG）。
 
+## 演示视频（B站）
+
+点击下方链接观看完整演示视频：
+
+https://www.bilibili.com/video/BV1A8j76eEby/
+
 ## 文件结构说明
 
 ```
@@ -157,14 +174,9 @@ python main.py
 
 检查透视点和平行点是否匹配准确，建议至少选取 6 对均匀分布的点以提高精度。
 
-### Q4: 颜色识别不准
-
-可调整 `Tool.py` 中 HSV 阈值范围，或增加光照预处理（如直方图均衡化）。
-
-### Q5: 导出 CSV 乱码
+### Q4: 导出 CSV 乱码
 
 CSV 文件使用 UTF-8-SIG 编码，Excel 打开时请选择“数据→从文本/CSV 导入”，并指定编码为 UTF-8。
 
 ## 许可证
-
-本项目仅供学习和研究使用，未经许可不得用于商业用途。
+本项目采用 **MIT License**，详见 [LICENSE](./LICENSE) 文件。
