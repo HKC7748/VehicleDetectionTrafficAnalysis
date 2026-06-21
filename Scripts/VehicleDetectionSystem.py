@@ -2,8 +2,7 @@ import cv2
 import time
 import numpy as np
 from ultralytics import YOLO
-from ultralytics.engine.results import (Results,
-                                        Boxes)
+from ultralytics.engine.results import (Results, Boxes)
 from Scripts.DetectionPlan import DetectionPlan
 from Scripts.Result import Result
 from Scripts.VehicleInformation import VehicleDetectionInformation

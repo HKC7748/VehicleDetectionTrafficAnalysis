@@ -1,33 +1,12 @@
 import cv2
 import numpy as np
 import pandas as pd
-from PySide6.QtCore import (QAbstractTableModel,
-                            QModelIndex,
-                            QMargins)
-from PySide6.QtGui import (QImage,
-                           QPixmap,
-                           QPainter,
-                           Qt, QColor)
-from PySide6.QtCharts import (QBarSet,
-                              QBarSeries,
-                              QChart,
-                              QBarCategoryAxis,
-                              QValueAxis,
-                              QChartView,
-                              QPieSeries,
-                              QPieSlice, QLegend)
-from PySide6.QtWidgets import (QWidget,
-                               QVBoxLayout,
-                               QHBoxLayout,
-                               QSlider,
-                               QLabel,
-                               QPushButton,
-                               QGroupBox,
-                               QTabWidget,
-                               QMessageBox,
-                               QFileDialog,
-                               QTableView,
-                               QHeaderView)
+from PySide6.QtCore import (QAbstractTableModel, QModelIndex, QMargins)
+from PySide6.QtGui import (QImage, QPixmap, QPainter, Qt, QColor)
+from PySide6.QtCharts import (QBarSet, QBarSeries, QChart, QBarCategoryAxis, QValueAxis,
+                              QChartView, QPieSeries, QPieSlice, QLegend)
+from PySide6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QSlider, QLabel, QPushButton,
+                               QGroupBox, QTabWidget, QMessageBox, QFileDialog, QTableView, QHeaderView)
 from Scripts.Lane import Lane
 from Scripts.Result import Result
 

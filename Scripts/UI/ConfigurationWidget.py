@@ -1,23 +1,8 @@
 import numpy as np
-from typing import (Optional,
-                    List,
-                    Dict)
-from PySide6.QtWidgets import (QWidget,
-                               QVBoxLayout,
-                               QHBoxLayout,
-                               QFormLayout,
-                               QGroupBox,
-                               QPushButton,
-                               QLabel,
-                               QLineEdit,
-                               QListWidget,
-                               QFileDialog,
-                               QMessageBox,
-                               QTableWidget,
-                               QTableWidgetItem,
-                               QHeaderView,
-                               QSpinBox,
-                               QSplitter)
+from typing import (Optional, List, Dict)
+from PySide6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QFormLayout, QGroupBox, QPushButton,
+                               QLabel, QLineEdit, QListWidget, QFileDialog, QMessageBox, QTableWidget,
+                               QTableWidgetItem, QHeaderView, QSpinBox, QSplitter)
 from PySide6.QtCore import Qt
 from Scripts.DetectionPlan import DetectionPlan
 from Scripts.Lane import Lane

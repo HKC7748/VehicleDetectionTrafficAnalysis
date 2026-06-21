@@ -1,16 +1,8 @@
 from typing import Optional
-from PySide6.QtCore import (Signal,
-                            QThread)
-from PySide6.QtWidgets import (QWidget,
-                               QVBoxLayout,
-                               QHBoxLayout,
-                               QPushButton,
-                               QProgressBar,
-                               QTextEdit,
-                               QMessageBox)
-from ultralytics.engine.results import (Boxes,
-                                        Results)
-
+from PySide6.QtCore import (Signal, QThread)
+from PySide6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QPushButton,
+                               QProgressBar, QTextEdit, QMessageBox)
+from ultralytics.engine.results import (Boxes, Results)
 from Scripts.DetectionPlan import DetectionPlan
 from Scripts.Result import Result
 from Scripts.VehicleDetectionSystem import VehicleDetectionSystem

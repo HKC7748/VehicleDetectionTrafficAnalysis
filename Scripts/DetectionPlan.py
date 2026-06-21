@@ -1,7 +1,5 @@
 import numpy as np
-from typing import (Optional,
-                    List,
-                    Dict)
+from typing import (Optional, List, Dict)
 from Scripts.Lane import Lane
 import json
 

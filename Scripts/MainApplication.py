@@ -1,5 +1,4 @@
-from PySide6.QtWidgets import (QMainWindow,
-                               QTabWidget)
+from PySide6.QtWidgets import (QMainWindow, QTabWidget)
 from Scripts.VehicleDetectionSystem import VehicleDetectionSystem
 from Scripts.UI.ConfigurationWidget import ConfigurationWidget
 from Scripts.UI.DetectionWidget import DetectionWidget
