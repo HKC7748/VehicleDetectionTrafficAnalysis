@@ -63,13 +63,12 @@ class VisualizationWidget(QWidget):
         outerLayout.addWidget(self.mainLayout)
 
     def ResultUpdate(self, result: Result) -> None:
-        """结果更新 - 先清空所有 Tab，再根据 result 动态创建"""
         self.result = result
 
         while self.mainLayout.count() > 0:
             self.mainLayout.removeTab(0)
         self.CreateControlTab()
-        self.CreateTrajectoryTab()  # 内部已自动设置 slider 和 label
+        self.CreateTrajectoryTab()
         self.CreateDataTab()
 
         self.currentFrameIndex = 0
@@ -133,7 +132,6 @@ class VisualizationWidget(QWidget):
         exportAllButtonLayout: QHBoxLayout = QHBoxLayout()
         exportAllButton: QPushButton = QPushButton("一键导出所有数据")
         exportAllButton.clicked.connect(self.OnExportAllDataClicked)
-        exportAllButton.setEnabled(False)
         exportAllButton.setFixedSize(200, 60)
         exportAllButtonLayout.addStretch()
         exportAllButtonLayout.addWidget(exportAllButton)

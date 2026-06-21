@@ -6,9 +6,11 @@ from Scripts.UI.VisualizationWidget import VisualizationWidget
 
 
 class MainApplication(QMainWindow):
+    """主程序窗口"""
     def __init__(self) -> None:
         super().__init__()
 
+        self.setWindowTitle("交通视频流车辆检测分析系统V1.0")
         self.vehicleDetectionSystem: VehicleDetectionSystem = VehicleDetectionSystem()
         self.setGeometry(100, 100, 1400, 900)
 
